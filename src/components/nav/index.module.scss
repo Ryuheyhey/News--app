@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  padding: 20px 20px;
+  border: 1px solid rgba(196, 196, 1960, 0.6);
+  border-radius: 15px;
+}
+
+.contents {
+  list-style: none;
+  > li {
+    margin-bottom: 15px;
+    opacity: 0.7;
+    color: rgb(196, 196, 196);
+    > a {
+      display: flex;
+      > span {
+        margin-left: 15px;
+        line-height: 36px;
+      }
+    }
+    &:hover {
+      opacity: 1;
+      transition-duration: 0.3s;
+    }
+  }
+}
+
+// @media (max-width: 1024px) {
+//   .container {
+//     display: none;
+//   }
+// }
